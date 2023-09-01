@@ -1,2 +1,7 @@
-package p2;public class JournalPrintable {
+package p2;
+
+public interface JournalPrintable extends Printable{
+
+    void paint();
+
 }

@@ -1,2 +1,9 @@
-package p3;public class Printer {
+package p3;
+
+public class Printer {
+
+    interface Printable{
+        void print();
+    }
+
 }

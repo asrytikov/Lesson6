@@ -1,3 +1,5 @@
+package p1;
+
 public class Main {
     public static void main(String[] args) {
         Book book = new Book("Java", "Shildt");
@@ -16,7 +18,7 @@ public class Main {
     }
 }
 
-class Book implements Printable{
+class Book implements Printable {
 
     String name;
     String author;
@@ -32,7 +34,7 @@ class Book implements Printable{
     }
 }
 
-class Journal implements Printable{
+class Journal implements Printable {
 
     private String name;
 

@@ -1,17 +1,6 @@
-package p2;
+package p4;
 
 public interface Printable {
 
-    int OPEN = 1;
-    int CLOSE = 0;
-
-
-    default void print(){
-        System.out.printf("Default print");
-    }
-
-    static void read(){
-        System.out.println("Read");
-    }
-
+    void print();
 }

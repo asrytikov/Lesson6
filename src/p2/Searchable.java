@@ -1,2 +1,7 @@
-package p2;public interface Searchable {
+package p2;
+
+public interface Searchable {
+
+    int search();
+
 }
